@@ -1,0 +1,265 @@
+@media only screen and (max-width: 768px){
+   
+
+    .lista__item{
+        
+        font-size: 2rem;
+        
+    }
+.main__hero p{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+   
+}
+.main__section div p{
+    position: relative;
+    width: 70%;
+}
+.main__parrafo--index{
+    font-size: 1.3rem;
+}
+.main__section{
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr auto; 
+    grid-gap: 1rem;
+    height: 25vh; 
+    align-content: center;
+    padding: 0px 1px;
+    position: relative;
+    
+}
+.section__articulos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 15vh;
+    margin-bottom: 50px;
+    width: 97%;
+    
+    
+    
+    padding: 1rem;
+    background-image: url(../assets/fondo_articulos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    margin-top: 22rem;
+}
+  
+
+
+}
+@media only screen and (min-width: 768px){
+   
+
+    .lista__item{
+        
+        font-size: 2rem;
+        
+    }
+.main__hero p{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+   
+}
+.main__section div p{
+    position: relative;
+    width: 70%;
+}
+.main__parrafo--index{
+    font-size: 1.3rem;
+}
+.main__section{
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr auto; 
+    grid-gap: 1rem;
+    height: 25vh; 
+    align-content: center;
+    padding: 0px 1px;
+    position: relative;
+    
+}
+.section__articulos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 15vh;
+    margin-bottom: 50px;
+    width: 97%;
+    
+    
+    
+    padding: 1rem;
+    background-image: url(../assets/fondo_articulos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    margin-top: 22rem;
+}
+  
+
+
+}
+
+@media only screen and (max-width: 700px){
+    .lista__item{
+        margin: 0.5em;
+        font-size: 0.7em;
+        color: black; 
+    }
+    .lista__logo{
+        width: 60px;
+        height: 60px;
+    }
+.header{
+    height: 5vh;
+    
+}
+main{
+    height: 100%;
+}
+
+.main__titulo--fuente{
+    font-size: 2em;
+
+}
+.main__subtitulo--fuente{
+    font-size: 1.2em;
+}
+.main__hero{
+    margin-bottom: 50px;
+}
+.main__hero--fuente{
+    font-size: 0.10em;
+}
+.main__section{
+    margin-bottom: 8px;
+}
+.section__articulos{
+    width: 90%;
+    align-self: center;
+    padding: 18px;
+    margin: 1px;
+    
+}
+.footer__logo{
+    height: 60px;
+    width: 60px;
+}
+.footer__item--fuente{
+    font-size: 0.9em;
+    margin: 1px;
+}
+footer{
+    margin-top: 150px;
+}
+
+
+}
+@media only screen and (max-width: 360px){
+    .lista__item{
+        margin: 0.5em;
+        font-size: 0.7em;
+        color: black; 
+    }
+    .lista__logo{
+        width: 60px;
+        height: 60px;
+    }
+.header{
+    height: 5vh;
+    
+}
+main{
+    height: 100%;
+}
+
+.main__titulo--fuente{
+    font-size: 2em;
+
+}
+.main__subtitulo--fuente{
+    font-size: 1.2em;
+}
+.main__hero{
+    margin-bottom: 50px;
+}
+.main__hero--fuente{
+    font-size: 0.10em;
+}
+.main__section{
+    margin-bottom: 8px;
+}
+.section__articulos{
+    width: 90%;
+    align-self: center;
+    padding: 18px;
+    margin: 1px;
+    
+}
+.footer__logo{
+    height: 60px;
+    width: 60px;
+}
+.footer__item--fuente{
+    font-size: 0.9em;
+    margin: 1px;
+}
+footer{
+    margin-top: 150px;
+}
+
+
+}
+
+@media only screen and (min-width: 1200px){
+    s
+    .lista__logo{
+        height: 100px;
+    width: 100px;
+
+    }
+    .lista__item{
+        font-size: 2.5rem;
+    }
+    .main__titulo--fuente{
+        font-size: 4em;
+    }
+    .main__subtitulo--fuente{
+        font-size: 2em;
+    }
+    #fuente__responsive{
+        font-size: 3em;
+    }
+    .section__articulos{
+        width: 90%;
+
+    }
+
+    main{
+        height: 100%;
+    }
+    footer{
+        margin-top: 180px;
+    }
+    
+    .footer__logo{
+        height:  100px;
+        width: 100px;
+    }
+    .footer__item--fuente{
+        font-size: 2.5rem;
+        margin: 16px;
+    }
+ 
+
+}
+
