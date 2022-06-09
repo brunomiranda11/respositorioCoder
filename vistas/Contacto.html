@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,47 +13,82 @@
 </head>
 <body class="body">
 
-        <header class="header">
-            <a href="../index.html"><img src="../assets/logo.png" alt="El logo" class="scale-in-center lista__logo"></a>
-             <nav>
-                 <ul class="header__lista scale-in-center">
-                     <li><a href="sobreNosotros.html" class="lista__item lista__item--bordes lista__item--fuente">Sobre nosotros</a> </li>
-                     <li><a href="Contacto.html" class="lista__item lista__item--bordes lista__item--fuente">Contacto</a></li>
-                     <li><a href="Productos.html" class="lista__item lista__item--bordes lista__item--fuente">Productos</a></li>
-                     <li><a href="Videos.html" class="lista__item lista__item--bordes lista__item--fuente">Videos</a></li>
-                 </ul>
-             </nav>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                  <a href="../index.html"><img class="bs__logo"src="../assets/logo.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse navbar-dark justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav align-items-center nav__fuente">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="sobreNosotros.html">Sobre Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Productos.html">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Videos.html">Videos</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
          </header>
          <main>
-            <form action="" method="get" enctype="text/plain">
-                <fieldset>
-                    <legend class="main__titulo--fuente">Datos personales</legend>
-                    <div class="main__subtitulo"> 
-                        <label for="userName">Nombre y Apellido*</label>
-                        <input type="text" name="userName" id="usernName" required>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group">
+                            <span class="input-group-text">Nombre y Apellido</span>
+                            <input type="text" aria-label="First name" class="form-control bs__fuente">
+                            <input type="text" aria-label="Last name" class="form-control bs__fuente">
+                          </div>
+                          <div class="mb-3">
                     </div>
-                    <div class="main__subtitulo">
-                        <label for="Email">Direccion de Correo Electronico*</label>
-                        <input type="email" name="Email" required>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label bs__fuente">Direccion de Correo Electronico</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@hotmail.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label bs__fuente">Deje aqui su comentario</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                          </div>
+                          <div>
+                            <button type="button" class="btn btn-dark bs__fuente">Enviar</button>
+                          </div>
                     </div>
-                    <div class="main__subtitulo">
-                        <label for="texto">Deje su mensaje aqui*</label>
-                        <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
-                        <button type="submit">Enviar</button>
-                    </div>
+                </div>
+            </div>
+           
+
+            <section>
+               
+                    <div class="contacto__section contacto__animacion">
+
+                        <div>
+                            <a href=""><img src="../assets/whatsapp.png" class="social__logo col-sm-2 col-md-4" alt=""></a>
+                        </div>
+                        
+                        <div>
+                            <a href=""><img src="../assets/facebook.png" alt="" class="socialface__logo col-sm-4 col-md-4"></a>
+                        </div>
+    
+                        <div>
+                            <span><a href=""><img src="../assets/instagram.png" alt="" class="social__logo col-sm-6 col-md-4"></a></span>
+                        </div>
+            
+                
+               
+                
+                 
                     
-                </fieldset>
-            </form>
-            <section class="contacto__section contacto__animacion">
                 <div>
-                    <a href=""><img src="../assets/whatsapp.png" class="social__logo" alt=""></a>
-                </div>
-                <div>
-                    <a href=""><img src="../assets/facebook.png" alt="" class="socialface__logo"></a>
-                </div>
-                <div>
-                    <span><a href=""><img src="../assets/instagram.png" alt="" class="social__logo"></a></span>
-                </div>
             </section>
          </main>
         
@@ -66,6 +102,6 @@
                     <li><a href="Videos.html" class="footer__item footer__item--fuente">Videos</a></li>
     
          </footer>
-    
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

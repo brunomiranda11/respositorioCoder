@@ -11,7 +11,17 @@ nav ul{
     display: flex;
     width: 100%;
 }
-header{
+.bs__logo{
+    height: 150px;
+    width: 150px;
+}
+.nav__fuente{
+font-size: 1.8rem;
+}
+.bs__fuente{
+font-size: 1.5rem;
+}
+.header{
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgba(0,212,255,1) 100%);
     display: flex;
@@ -71,7 +81,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgb
     height: 100vh;
     
 }
-
+.main__Contacto{
+    background-color:rgb(219, 214, 214);
+    font-size: 1.5em;
+    margin-top: 25px;
+    height: 60vh;
+}
 
 .main__hero button{
     padding: 10px;
