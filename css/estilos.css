@@ -195,10 +195,25 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgb
 .social__logo{
     width:  64px;
     height: 64px;
+    transition: height 2s;
+    transition: width 2s;
+
 }
 .socialface__logo{
     width:  90px;
     height: 90px;
+    transition: height 2s;
+    transition: width 2s;
+
+}
+
+.social__logo:hover{
+    height: 75px;
+    width: 75px;
+}
+.socialface__logo:hover{
+    height: 100px;
+    width: 100px;
 }
 .contacto__section{
     display: flex;
@@ -228,6 +243,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgb
     height: 100px;
 
 }
+
 .footer__item{
     display: inline-block;
     background-color: rgba(253, 254, 255, 0.993);
@@ -274,8 +290,72 @@ footer{
 }
 
 
-    
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 
 
+ @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .tracking-in-expand-fwd-top {
+	-webkit-animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
 
-
+ @-webkit-keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand-fwd-top {
+    0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px) translateY(-500px);
+              transform: translateZ(-700px) translateY(-500px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  
