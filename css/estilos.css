@@ -65,9 +65,11 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgb
 /* MAIN */
 
 .main{
-    background-color:rgb(145, 141, 137);
+    background-color:rgb(219, 214, 214);
     font-size: 1.5em;
-    margin-top: 50px;
+    margin-top: 25px;
+    height: 100vh;
+    
 }
 
 
@@ -101,8 +103,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgb
 .main__subtitulo--fuente{
     font-size: 2.5em;
     font-family: Koulen;
-    font
+    
 }
+
 .main__hero--fuente{
     font-family: Koulen;
     font-weight: 900;
@@ -134,7 +137,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgb
     height: 30vh;
     margin-bottom: 50px;
     width: 70%;
-    
+    position: relative;
+    top: 80px;
     
     padding: 1rem;
     background-image: url(../assets/fondo_articulos.jpg);
@@ -175,7 +179,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgb
 }
 .main__subtitulo--borde{
     display: inline-block;
-    border:rgb(8, 8, 8) 1px solid;
+    border: rgb(8, 8, 8) 1px solid;
     
     
     
@@ -232,6 +236,7 @@ form{
 footer{
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgba(0,212,255,1) 100%);
+
     /*display: flex;
     flex-direction: column;
     align-items: center;
