@@ -177,9 +177,7 @@ footer{
 
 }
 @media only screen and (max-width: 360px){
-    header{
-        
-    }
+    
     .lista__item{
         margin: 0.5em;
         font-size: 1em;

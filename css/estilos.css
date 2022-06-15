@@ -115,6 +115,14 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgb
     font-family: Koulen;
     
 }
+.main__titulo--fuentes{
+   
+        font-size: 3.5em;
+        font-family: Koulen;
+        border: 2px solid black;
+        border-radius: 10%;
+        background-color: white;
+}
 .main__subtitulo--fuente{
     font-size: 2.5em;
     font-family: Koulen;
@@ -131,6 +139,15 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(81,81,175,1) 35%, rgb
 
     
 
+}
+.main__margin{
+    margin: 25px;
+}
+.main__trabajo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .main__section{
     display: grid; 
